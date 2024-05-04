@@ -1,0 +1,29 @@
+/* root - корінь */
+
+:root {
+  --text-color: #b4ad9e;
+
+  --heading-color: #626262;
+
+  --text-fontsize: 30px;
+
+  /* щоб створити змінну ми маємо записати --назву:значення */
+
+  --accent-color: #03a9f4;
+
+  --happy: yellow;
+}
+.list-p-textt {
+  color: var(--heading-color);
+  font-family: "Playfair DisplayRal", sans-serif;
+  font-size: var(--text-fontsize);
+}
+
+.list-h2-text {
+  color: var(--text-color);
+  font-family: "Playfair DisplayRal", sans-serif;
+}
+
+.list-li-p {
+  font-family: "Ubuntu", sans-serif;
+}
